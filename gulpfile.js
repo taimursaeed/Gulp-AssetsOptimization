@@ -8,7 +8,7 @@ var notifier = require('node-notifier');
 var runSequence = require('run-sequence');
 
 var paths = {
-  srcIMAGES: "src/*",
+  srcIMAGES: "src/**",
   distIMAGES: "dist"
 }
 
